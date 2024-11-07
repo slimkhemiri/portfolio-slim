@@ -36,7 +36,6 @@ const App = () => {
         <Timeline />
         <Project />
         <Logos />
-        
         <Contact />
       </FadeIn>
       <Footer />
