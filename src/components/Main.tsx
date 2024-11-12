@@ -16,8 +16,8 @@ function Main() {
             <a href="https://www.linkedin.com/in/slim-khemiri/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>SLIM KHEMIRI</h1>
-          <p>Full Stack JS Developer</p>
-          <span style={{color:'gray'}}>+ 4 Years of Experience</span>
+          <p className='typewriter'>I'm a Full-Stack JS Developer</p>
+          <span style={{color:'gray'}}>5 Years of Experience</span>
           <div className="mobile_social_icons">
             <a href="https://github.com/slimkhemiri" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/slim-khemiri/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
