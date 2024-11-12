@@ -36,11 +36,6 @@ function Project() {
                 <a href="https://www.tecnocasa.tn/" target="_blank" rel="noreferrer"><h2>Technocasa: Franchise real estate agency network</h2></a>
                 <p>Technocasa is an application designed for a franchise real estate agency network, allowing users to easily browse, buy, sell, and rent properties through a clean and responsive interface using Vue JS, Redux, Axios, Vuetify, Google Analytics </p>
             </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div>
         </div>
     </div>
     );
