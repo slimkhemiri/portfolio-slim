@@ -152,4 +152,58 @@
             width: 100%;
         }
     }
+    .typewriter {
+        width: 26.5ch;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 4px solid #212121;
+        animation: cursor 1s step-start infinite, 
+        text 2s steps(18) alternate infinite;
+    }
+    
+    @keyframes cursor {
+        0%, 100% { 
+        border-color: #212121; 
+      }
+    }
+    
+    @keyframes text {
+        0% { 
+        width: 0; 
+      }
+        100% { 
+        width: 26.5ch; 
+      }
+    }
+    h1 {
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        opacity: 0;
+        transform: scale(0.8);
+        animation: fadeInScale 2s ease-out forwards, colorChange 5s ease-in-out infinite alternate;
+      
+        @keyframes fadeInScale {
+          0% {
+            opacity: 0;
+            transform: scale(0.8);
+          }
+          100% {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+      
+        @keyframes colorChange {
+          0% {
+            color: #c1badd;
+          }
+          50% {
+            color: #ac80ef;
+          }
+          100% {
+            color: #7c5ece;
+          }
+        }
+      }
 }

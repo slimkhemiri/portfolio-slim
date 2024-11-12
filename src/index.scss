@@ -18,7 +18,11 @@ code {
   background-color: #0d1116;
 
 }
-
+.main-container.dark-mode .contact-form fieldset,
+.main-container.dark-mode .MuiInputBase-input {
+  border-color: white;
+  color: #f5f5f5;
+}
 a {
   text-decoration: none;
 }
