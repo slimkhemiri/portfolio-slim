@@ -1,4 +1,3 @@
-import mock01 from '../assets/images/mock01.png';
 import technocasa from '../assets/images/technocasa.png';
 import hulu from '../assets/images/hulu.png';
 import autobiz from '../assets/images/autobiz.png';
