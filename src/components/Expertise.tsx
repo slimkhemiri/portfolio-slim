@@ -4,6 +4,7 @@ import { faReact, faDocker } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { useTranslation } from 'react-i18next';
 
 const labelsFirst = [
     "React",
@@ -46,6 +47,7 @@ const labelsThird = [
 ];
 
 function Expertise() {
+    const { t } = useTranslation();
     return (
     <div className="container" id="expertise">
         <div className="skills-container">
@@ -53,10 +55,10 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Node. I have a strong proficiency in frontend + backend development.</p>
+                    <h3>{t(`expertise.dev`)}</h3>
+                    <p>{t(`expertise.description`)}</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">{t(`expertise.tech`)}:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -66,9 +68,9 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I can help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <p>{t(`expertise.devops`)}</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">{t(`expertise.tech`)}:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -77,12 +79,10 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDatabase} size="3x"/>
-                    <h3>Data Base</h3>
-                    <p>I have experience in designing, optimizing, and managing databases to ensure efficient data storage 
-                        and retrieval. My expertise includes working with both SQL and NoSQL databases,
-                         which enables me to choose the best approach based on the project's needs.</p>
+                    <h3>{t(`expertise.db`)}</h3>
+                    <p>{t(`expertise.data`)}</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">{t(`expertise.tech`)}:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
