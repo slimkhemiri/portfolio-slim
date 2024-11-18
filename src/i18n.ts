@@ -38,7 +38,8 @@ i18n
             send: "SEND"
           },
           footer: {
-            foot: "A portfolio designed & built by"
+            foot: "A portfolio designed & built by",
+            with: 'with'
           },
           career: {
             title: "Career History",
@@ -104,7 +105,8 @@ i18n
             send: "ENVOYER"
           },
           footer: {
-            foot: "Un portfolio conçu & créé par"
+            foot: "Un portfolio conçu & créé par",
+            with: 'avec'
           },
           career: {
             title: "Carrière",
