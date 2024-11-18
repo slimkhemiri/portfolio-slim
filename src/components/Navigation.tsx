@@ -127,7 +127,7 @@ function Navigation({ parentToChild, modeChange }: any) {
         {navItems.map((item) => (
           <ListItem key={item[0]} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }} onClick={() => scrollToSection(item[1])}>
-              <ListItemText primary={item[0]} />
+              <ListItemText primary={t(`navigation.${item[0].toLowerCase()}`)} />
             </ListItemButton>
           </ListItem>
         ))}
