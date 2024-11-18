@@ -13,10 +13,12 @@ import nosql from "../assets/images/nosql.jpeg";
 import aws from "../assets/images/aws.jpeg";
 import docker from "../assets/images/docker.jpeg";
 import git from "../assets/images/git.png";
+import { useTranslation } from "react-i18next";
 const Logos = () => {
+    const { t } = useTranslation();
     return (
         <div className="items-container" id="techstack">
-            <h1>Tech Stack</h1>
+            <h1>{t(`expertise.tech`)}</h1>
             <div style={{margin: "20px 0 20px 0"}}>
             <Slider
                 width="180px"
