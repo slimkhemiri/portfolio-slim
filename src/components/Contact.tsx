@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
 import { Alert } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 
 function Contact() {
   const [name, setName] = useState<string>('');
@@ -15,7 +16,7 @@ function Contact() {
   const [nameError, setNameError] = useState<boolean>(false);
   const [emailError, setEmailError] = useState<boolean>(false);
   const [messageError, setMessageError] = useState<boolean>(false);
-
+  const { t } = useTranslation();
   const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
@@ -54,8 +55,8 @@ function Contact() {
     <div id="contact">
       <div className="items-container">
         <div className="contact_wrapper">
-          <h1>Contact Me</h1>
-          <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+          <h1>{t(`contact.title`)}</h1>
+          <p>{t(`contact.desc`)}</p>
           <Box
             component="form"
             ref={form}
@@ -68,7 +69,7 @@ function Contact() {
               <TextField
                 required
                 id="outlined-required"
-                placeholder="What's your name?"
+                placeholder={t(`contact.name`)}
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 error={nameError}
@@ -77,7 +78,7 @@ function Contact() {
               <TextField
                 required
                 id="outlined-required"
-                placeholder="What's your Email / Phone?"
+                placeholder={t(`contact.email`)}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 error={emailError}
@@ -87,7 +88,7 @@ function Contact() {
             <TextField
               required
               id="outlined-multiline-static"
-              placeholder="Send me any inquiries or questions"
+              placeholder={t(`contact.msg`)}
               multiline
               rows={10}
               className="body-form"
@@ -97,7 +98,7 @@ function Contact() {
               helperText={messageError ? 'Please enter the message' : ''}
             />
             <Button type="submit" variant="contained" endIcon={<SendIcon />}>
-              Send
+            {t(`contact.send`)}
             </Button>
           </Box>
           {success && <Alert style={{width:'60%'}} variant="outlined" severity="success">Message sent successfully!</Alert>}
