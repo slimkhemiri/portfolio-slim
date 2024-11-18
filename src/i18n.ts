@@ -39,6 +39,38 @@ i18n
           },
           footer: {
             foot: "A portfolio designed & built by"
+          },
+          career: {
+            title: "Career History",
+            full: "FULL-STACK JS DEVELOPER",
+            front: "FRONT-END JS DEVELOPER",
+            sogeclair: "The project ICAP is an intranet that manages data  and aircraft spare parts. It is intuitiveand customizable, helping users manage aircraft parts efficiently and to take informed decisions.",
+            enerfox: "ENERFOX is a monorepo bringing together several projects based on React and Node.js, integrating Data Science and Artificial Intelligence to improve the deployment of renewable energies, providing cutting-edge solutions for energy management, both in terms of hardware and software.",
+            sidexia: "VISION is an HR web application that stores and manages employee data and customers. It is intuitive and customizable, helping businesses effectively manage their HR and make informed decisions.",
+            vistaprint: "A company specializing in creation of e-commerce websites and printing of personalized commerce products.",
+            autobiz: "Autobiz Trade is a platform that allows its users to sell and buy used vehicles in a few clicks on AutobizTrade."
+          },
+          project: {
+            crypto: {
+              title: "Crypto Pro: Real-time cryptocurrency conversion and tracking platform",
+              desc: "A project that allows users to trade cryptocurrencies using a simple and intuitive interface. It was built using React, Redux, and Node.js.",
+            },
+            hulu: {
+              title: "Hulu Clone: movie finder app with semantic search",
+              desc: "Developed movie finder app with semantic search using Next, tailwindCss, Rest API, Responsive.",
+            },
+            enerfox: {
+              title: "Enerfox: Energy equipment and automation solutions",
+              desc: "ENERFOX is a monorepo bringing together several projects based on React and Node.js, integrating Data Science and Artificial Intelligence to improve the deployment of renewable energies, thus providing cutting-edge solutions for energy management, both in terms of hardware and software.",
+            },
+            autobiz: {
+              title: "Autobiz: Used car dealer",
+              desc: "Autobiz Trade is a platform that allows its users to sell and buy used vehicles in a few clicks on AutobizTrade Using React, Typescript, Redux, Node, Nest JS, Serverless Framework, PostgreSQL, MariaDB, Docker, AWS."
+            },
+            technocasa: {
+              title: "Technocasa: Franchise real estate agency network",
+              desc: "Technocasa is an application designed for a franchise real estate agency network, allowing users to easily browse, buy, sell, and rent properties through a clean and responsive interface using Vue JS, Redux, Axios, Vuetify, Google Analytics."
+            }
           }
         }
       },
@@ -73,6 +105,38 @@ i18n
           },
           footer: {
             foot: "Un portfolio conçu & créé par"
+          },
+          career: {
+            title: "Carrière",
+            full: "DÉVELOPPEUR FULL-STACK JS",
+            front: "DÉVELOPPEUR FRONT-END JS",
+            sogeclair: "Le projet ICAP est un intranet qui gère les données et les pièces détachées d'avions. Il est intuitif et personnalisable, aidant les utilisateurs à gérer efficacement les pièces d'avions et à prendre des décisions éclairées.",
+            enerfox: "ENERFOX est un répertoire monorepo qui combine plusieurs projets basés sur React et Node.js, intégrant les sciences de données et l'intelligence artificielle pour améliorer la déploiement des energies renouvelables, fournissant des solutions innovantes pour la gestion des energies, soit en termes de matériel et de logiciel.",
+            sidexia: "VISION est une application web RH qui stocke et gère les données des employés et clients. C'est intuitif et personnalisable, aider les entreprises à gérer efficacement leurs RH et prendre des décisions éclairées.",
+            autobiz: "Autobiz Trade est une plateforme qui permet aux utilisateurs de vendre et acheter des véhicules utilisés en un seul clic sur Autobiz Trade.",
+            vistaprint: "Une entreprise spécialisée dans la création de sites Web e-commerce et l'impression personnalisée de produits commerce."
+          },
+          project: {
+            crypto: {
+              title: "Crypto Pro: Plateforme de conversion et de suivi de crypto-monnaie en temps réel",
+              desc: "Un projet qui permet aux utilisateurs d'échanger des crypto-monnaies à l'aide d'une interface simple et intuitive. Il a été construit avec React, Redux et Node.js."
+            },
+            hulu: {
+              title: "Hulu Clone: plateforme de recherche de films avec recherche semantique",
+              desc: "Développement d'une plateforme de recherche de films avec recherche semantique utilisant Next, tailwind CSS, Rest API, et Responsive."
+            },
+            enerfox: {
+              title: "Enerfox: Solutions d'énergie et d'automatisation des appareils",
+              desc: "ENERFOX est un répertoire monorepo qui combine plusieurs projets basés sur React et Node.js, intégrant les sciences de données et l'intelligence artificielle pour améliorer la déploiement des energies renouvelables, fournissant des solutions innovantes pour la gestion des energies, soit pour la matériel et le logiciel."
+            },
+            autobiz: {
+              title: "Autobiz: Locations de véhicules utilisés",
+              desc: "Autobiz Trade est une plateforme qui permet aux utilisateurs de vendre et acheter des véhicules utilisés en un seul clic sur Autobiz Trade en utilisant React, Typescript, Redux, Node, Nest JS, Serverless Framework, PostgreSQL, MariaDB, Docker, et AWS."
+            },
+            technocasa: {
+              title: "Technocasa: Réseau de franchises immobilières",
+              desc: "Technocasa est une application conçue pour un réseau de franchises immobilières, permettant aux utilisateurs de facilement naviguer, acheter et vendre des propriétés, et louer des appartements grâce à une interface clean et responsive en utilisant Vue JS, Redux, Axios, Vuetify, et Google Analytics."
+            }
           }
         }
       }
