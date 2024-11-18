@@ -11,7 +11,7 @@ function Footer() {
         <a href="https://github.com/slimkhemiri" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/slim-khemiri/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
-      <p>{t(`footer.foot`)} <a href="https://github.com/slimkhemiri" target="_blank" rel="noreferrer">Slim Khemiri</a> with 💜</p>
+      <p>{t(`footer.foot`)} <a href="https://github.com/slimkhemiri" target="_blank" rel="noreferrer">Slim Khemiri</a> {t('footer.with')} 💜</p>
     </footer>
   );
 }
