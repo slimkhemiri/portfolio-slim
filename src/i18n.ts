@@ -71,6 +71,10 @@ i18n
             technocasa: {
               title: "Technocasa: Franchise real estate agency network",
               desc: "Technocasa is an application designed for a franchise real estate agency network, allowing users to easily browse, buy, sell, and rent properties through a clean and responsive interface using Vue JS, Redux, Axios, Vuetify, Google Analytics."
+            },
+            fithub: {
+              title: "FITHUB: Mobile App for fitness and health care",
+              desc: "Mobile App for fitness and health where you can find the nearest Gyms and healthy food restaurants, you can also book for a private coach , Join some events and follow the progress of your health using React Native, Typescript, expo, TailwindCss, NestJs, PostgreSQL, Heroku."
             }
           }
         }
@@ -138,6 +142,10 @@ i18n
             technocasa: {
               title: "Technocasa: Réseau de franchises immobilières",
               desc: "Technocasa est une application conçue pour un réseau de franchises immobilières, permettant aux utilisateurs de facilement naviguer, acheter et vendre des propriétés, et louer des appartements grâce à une interface clean et responsive en utilisant Vue JS, Redux, Axios, Vuetify, et Google Analytics."
+            },
+            fithub: {
+              title: "FITHUB: Application mobile pour la fitness et la santé",
+              desc: "Application mobile pour la fitness et la santé où vous pouvez trouver les plus proches gymmes et restaurants de nourriture sain, vous pouvez également réserver pour un coach privé, Vous pouvez suivre les progrès de votre santé en utilisant React Native, Typescript, expo, Tailwind CSS, NestJs, PostgreSQL, Heroku."
             }
           }
         }

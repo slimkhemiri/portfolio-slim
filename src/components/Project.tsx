@@ -3,6 +3,7 @@ import hulu from '../assets/images/hulu.png';
 import autobiz from '../assets/images/autobiz.png';
 import crypto from '../assets/images/cryptos.png';
 import enerfox from '../assets/images/enerfox.png';
+import fithub from '../assets/images/fithub.png';
 import '../assets/styles/Project.scss';
 import { useTranslation } from 'react-i18next';
 
@@ -36,6 +37,11 @@ function Project() {
                 <a href="https://www.tecnocasa.tn/" target="_blank" rel="noreferrer"><img src={technocasa} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.tecnocasa.tn/" target="_blank" rel="noreferrer"><h2>{t('project.technocasa.title')}</h2></a>
                 <p>{t('project.technocasa.desc')} </p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/slimkhemiri/Fit-Hub" target="_blank" rel="noreferrer"><img src={fithub} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/slimkhemiri/Fit-Hub" target="_blank" rel="noreferrer"><h2>{t('project.fithub.title')}</h2></a>
+                <p>{t('project.fithub.desc')} </p>
             </div>
         </div>
     </div>
