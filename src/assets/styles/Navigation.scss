@@ -1,12 +1,12 @@
 div.container {
-    margin-top: 0 !important; /* Force margin reset */
+    margin-top: 0 !important;
   }
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     --hue: 220deg;
-    --width: 4.4rem;
+    --width: 4rem;
     --accent-hue: 22deg;
     --duration: 0.6s;
     --easing: cubic-bezier(1, 0, 1, 1);
