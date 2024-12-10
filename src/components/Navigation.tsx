@@ -3,11 +3,9 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
-import DarkModeIcon from '@mui/icons-material/DarkMode';
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
-import LightModeIcon from '@mui/icons-material/LightMode';
 import List from '@mui/material/List';
 import ListIcon from '@mui/icons-material/List';
 import ListItem from '@mui/material/ListItem';
@@ -19,6 +17,7 @@ import { useTranslation } from 'react-i18next';
 import { styled } from '@mui/material/styles';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
+import '../assets/styles/Navigation.scss'
 const drawerWidth = 240;
 const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'], ['Tech', 'techstack'], ['Contact', 'contact']];
 
@@ -140,7 +139,7 @@ function Navigation({ parentToChild, modeChange }: any) {
       <CssBaseline />
       <AppBar component="nav" id="navigation" className={`navbar-fixed-top${scrolled ? ' scrolled' : ''}`}>
         <Toolbar className="navigation-bar" sx={{ display: 'flex', justifyContent: 'space-between' }}>
-          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <IconButton
               color="inherit"
               aria-label="open drawer"
@@ -150,12 +149,16 @@ function Navigation({ parentToChild, modeChange }: any) {
             >
               <MenuIcon />
             </IconButton>
-            {mode === 'dark' ? (
-              <LightModeIcon style={{ marginRight: '80px' }} onClick={() => modeChange()} />
-            ) : (
-              <DarkModeIcon style={{ marginRight: '80px' }} onClick={() => modeChange()} />
-            )}
-            <Box sx={{ display: 'inline-flex', alignItems: 'center' }}>
+              <div className="container" >
+              <label className="switch">
+                <input className="togglesw" type="checkbox" checked={mode === 'light' ? true : false} />
+                <div className="indicator left"></div>
+                <div className="indicator right"></div>
+                <div onClick={() => modeChange()} className="button"></div>
+              </label>
+              </div>
+              
+            <Box sx={{ display: 'inline-flex', ml: 6, alignItems: 'center' }}>
               <FormControlLabel
                 control={<MaterialUISwitch sx={{ m: 0 }} onClick={handleChangeLanguage} checked={checked} />}
                 label=""

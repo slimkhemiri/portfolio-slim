@@ -18,7 +18,7 @@ i18n
             contact: "Contact"
           },
           main: {
-            describe: "I'm a Full-Stack JS Developer",
+            describe: "Full-Stack JS Developer",
             years: "5 years of experience",
           },
           expertise: {
@@ -89,7 +89,7 @@ i18n
             contact: "Contact"
           },
           main: {
-            describe: "Je suis un développeur Full-Stack JS",
+            describe: "Développeur Full-Stack JS",
             years: "5 ans d'expérience",
           },
           expertise: {
