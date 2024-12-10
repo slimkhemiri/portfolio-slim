@@ -6,7 +6,7 @@ import TextField from '@mui/material/TextField';
 import { Alert } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
-
+import SendIcon from '@mui/icons-material/Send';
 function Contact() {
   const [name, setName] = useState<string>('');
   const [email, setEmail] = useState<string>('');
@@ -100,7 +100,7 @@ function Contact() {
               <button className="pushable">
                 <span className="shadow" />
                 <span className="edge" />
-                <span className="front"> {t(`contact.send`)}</span>
+                <span className="front"> {t(`contact.send`)} <SendIcon /></span>
               </button>
             </StyledWrapper>
           </Box>
