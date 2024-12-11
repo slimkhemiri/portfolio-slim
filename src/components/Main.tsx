@@ -1,5 +1,3 @@
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
 import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
