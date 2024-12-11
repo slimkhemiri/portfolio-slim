@@ -149,6 +149,7 @@ function Navigation({ parentToChild, modeChange }: any) {
             >
               <MenuIcon />
             </IconButton>
+            
               <div className="container" >
               <label className="switch">
                 <input className="togglesw" type="checkbox" checked={mode === 'light' ? true : false} />
@@ -157,7 +158,6 @@ function Navigation({ parentToChild, modeChange }: any) {
                 <div onClick={() => modeChange()} className="button"></div>
               </label>
               </div>
-              
             <Box sx={{ display: 'inline-flex', ml: 6, alignItems: 'center' }}>
               <FormControlLabel
                 control={<MaterialUISwitch sx={{ m: 0 }} onClick={handleChangeLanguage} checked={checked} />}
